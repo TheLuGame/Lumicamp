@@ -1,0 +1,15 @@
+:root { --ink:#3d3226; --soft:#6f6254; --bg:#f6f0e2; --card:#fffaf1; --edge:#e3d6bc; --forest:#2f6b45; --honey:#b7791f; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width:760px; margin:0 auto; padding:24px 16px 60px; }
+h1 { font-size:28px; line-height:1.25; margin:8px 0 4px; color:var(--forest); }
+h2 { font-size:20px; margin:28px 0 8px; color:var(--honey); }
+.card { background:var(--card); border:2px solid var(--edge); border-radius:16px; padding:16px 20px; margin:14px 0; }
+.soft { color:var(--soft); font-size:14px; }
+.table { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:15px; }
+td, th { border-bottom:1px solid var(--edge); padding:8px 6px; text-align:left; vertical-align:top; }
+a { color:var(--forest); }
+nav { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:15px; }
+hr { margin:40px 0; border:none; border-top:2px solid var(--edge); }
+.hero { font-size:44px; margin:0; }
